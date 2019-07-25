@@ -1,6 +1,8 @@
-# Web Starter Kit
+# Web Starter Kit2
 
 Gulp4로 작성된 HTML, SCSS, JS, Image, Fonts 를 포함하는 웹스타터킷 입니다.
+
+Bootstrap SCSS 를 활용할수 있는 스타터킷입니다.
 
 
 기본 작업외에 [jquery](https://jquery.com/), [bootstrap](https://getbootstrap.com/), [swiper](https://idangero.us/swiper/) 파일들이 있습니다.
