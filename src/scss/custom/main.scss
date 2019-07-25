@@ -1,0 +1,31 @@
+// // 사용자정의
+// .test {
+//     color: $white;
+// }
+
+// // 사용자 지정 변수 사용, 컴파일 필요없음
+// h1 {
+//     color: var(--blue);
+//     font-family: var(--font-family-sans-serif);
+// }
+
+// // 함수 사용하기 예제
+// .custom-element {
+//     color: gray("100");
+//     background-color: theme-color("dark");
+// }
+
+// // 색상 지정하기 예제, 반대색을 노출
+// .custom-element2 {
+// //   color: color-yiq(#000); // returns `color: #fff`
+//   color: color-yiq(rgb(180, 143, 134)); // returns `color: #212529`
+// }
+
+
+// // 변수와 함께 사용 예제
+// .alpha { color: $purple; }
+
+// // `color()` 함수 사용 예제
+// .beta { color: color("purple"); }
+
+

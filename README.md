@@ -1,7 +1,6 @@
-# Web Starter Kit2
+# Web Starter Kit
 
 Gulp4로 작성된 HTML, SCSS, JS, Image, Fonts 를 포함하는 웹스타터킷 입니다.
-Bootstrap 의 SCSS 를 활용해서 제작할 수 있는 스타터킷입니다.
 
 
 기본 작업외에 [jquery](https://jquery.com/), [bootstrap](https://getbootstrap.com/), [swiper](https://idangero.us/swiper/) 파일들이 있습니다.
@@ -86,8 +85,8 @@ npm i -D 플러그인명
 
 ```js
 module.exports = [
-    './node_modules/jquery/dist/jquery.slim.js',
-    './node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+    './node_modules/jquery/dist/jquery.js',
+    './node_modules/bootstrap/dist/js/bootstrap.js',
     './node_modules/swiper/dist/js/swiper.js'
 ];
 ```
@@ -106,8 +105,8 @@ npm 으로 설치하지 않는 플러그인의 경우
 
 ```js
 module.exports = [
-    './node_modules/jquery/dist/jquery.slim.js',
-    './node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+    './node_modules/jquery/dist/jquery.js',
+    './node_modules/bootstrap/dist/js/bootstrap.js',
     './node_modules/swiper/dist/js/swiper.js',
     './src/js/vendor/jquery.rwdImageMaps.js'
 ];
